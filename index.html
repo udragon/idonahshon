@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    
+    <title>Ido Nahshon's home page</title>
+    <!-- Ido Nahshon, Ido, Nahshon -->
+    
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="My name is Ido Nahshon, and I'm here to make great things a reality. It is always seems impossible until it is done." />
+    <meta name="keywords" content="Ido Nahshon, Ido, Nahshon, DevOps" />
+    
+    <!-- Javascript -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+    <style>
+        .shadow-box {
+             background-color: #ffffff;
+             box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+             border-radius: 2px;
+             margin: 10px;
+             padding: 40px 40px 60px 40px;
+         }
+
+         .skill-bubble {
+            background-color: #eeeeee;
+            border-radius: 16px;
+            padding: 6px 12px;
+            margin: 6px 12px;
+            display: inline-block;
+            border: 1px solid #aaaaaa;
+         }
+
+         .job-info {
+            color: #555555;
+            font-size: 12px;
+         }
+
+         .job-desc {
+            padding-top: 5px;
+         }
+
+    </style>
+</head>
+
+<body style="background-color:#eeeeee; padding-top: 50px; padding-bottom: 50px;">
+
+    <div class="container">
+
+        <!-- Section: About -->
+        <div class="row">
+            <div class="col-md-12 shadow-box" id="about">
+                
+                <!-- Introduction Text -->
+                <div>
+                    <p class="lead">
+                        Hello there, and thank you for viewing my home page.
+                        My name is <strong style="color: red;">Ido</strong>, and I'm here to make great things a reality.
+                    </p>
+                    <p>
+                    I started to code before finishing elementry shcool.
+                    In my early childhood I was participating at "Ron Vardi Center" gifted children program for 7 years, and participated in "Computer Ron", which was a voluntary student project dedicated to fixing old computers and donating them to charity.
+                    I studied at Bar Ilan University youth program and finish my high school mathematics two years earlier.
+                    I studied at Gymnasia Realit high school at Rishon Lezion in a gifted children class, and majored in Computer Science, Chemistery and Physics.
+                    In my late teens, I solved 200+ Project Euler's algorithmic problems, and wrote 100+ articles in the Hebrew Wikipedia.
+                    </p>
+                    <p>
+                    After Graduated from high school in 2011, I enlisted and served in an elite technology unit in the Intelligence Corps of the IDF, two years of them as an officer and a team leader.
+                    I Led 2 teams of 4-10 soldiers which was responsible for high performance infrastructures and managed various projects.
+                    I started to study computer science degree at the Open University in 2014.
+                    I left the IDF in 2017 to continue my studies at Ben Gurion University of the Negev.  
+                    </p>
+
+                </div>
+                
+                <!-- Favorite Quote -->
+                <div class="text-center" style="padding-top: 20px;">
+                    <span class="lead">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                        " It always seems impossible until it is done. "
+                         <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                </div>
+                
+                <!-- Photos -->
+                <div class="text-center" style="padding-top: 20px;">
+                    <hr>
+                    <img src="img/profilepic1.jpg" class="img-thumbnail" height="300px" width="300px">
+                    <img src="img/profilepic2.jpg" class="img-thumbnail" height="300px" width="300px">
+                    <hr>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Section: Experience -->
+        <div class="row">
+            <div class="col-md-12 shadow-box" id="experience">
+                <h3 class="text-center">- Experience -</h3>
+                
+                <!-- DevOps Team Leader -->
+                <div class="col-md-10">
+                    <h4> <i class="fa fa-id-card-o fa-3" aria-hidden="true"></i> DevOps Team Leader </h4>
+                    <span class="job-info">Israel Defense Forces | 2015 - 2017 | 2 Years</span>
+                    <p class="job-desc">
+                        Led a team of 4-10 engineers, and managed various projects, including:
+                        <ul>
+                            <li>
+                                <strong>NoSQL/BigData:</strong>
+                                Design and deployment of large-scale ElasticSearch, Couchbase and MongoDB clusters.
+                            </li>
+                            <li>
+                                <strong>Monitoring:</strong>
+                                Development of a large-scale monitoring system based on Graphite, Grafana, Icinga and Collectd.
+                            </li>
+                            <li>
+                                <strong>DevOps:</strong>
+                                Responsibility of Linux and puppet infrastructures.
+                                Deployment of development cycle infrastractures, including Atlassian, Jenkins, PyPI, NPM and Docker Registry.
+                                Development of in-house micro-PaaS.
+                            </li>
+                            <li>
+                                <strong>HPC:</strong>
+                                Maintaining an HPC Cluster infrastracture, development of a python API for job scheduling, and development of data collecting infrastracture for monitoring and BI.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                
+                <!-- DevOps Engineer & Lead Project -->
+                <div class="col-md-10">
+                    <h4> <i class="fa fa-id-card-o fa-3" aria-hidden="true"></i> DevOps Engineer </h4>
+                    <span class="job-info">Israel Defense Forces | 2013 - 2015 | 2 Years</span>
+                    <p class="job-desc">
+                        <ul>
+                            <li>Deployed and configured a large high-performance cluster system.</li>
+                            <li>Deployed a high-scale multi-site Puppet infrastructure, including foreman for reports, and wrote tens of puppet modules in a heterogeneous environment.</li>
+                            <li>Developed a dedicated Linux distribution based on Red Hat Enterprise Linux.</li>
+                            <li>Developed automation scripts for various cases, mostly in python and bash.</li>
+                            <li>Led a project based on a bleeding-edge SDN technology with 2 other soldiers, that combines both IT and development of a plugin-able python infrastructure.</li>
+                        </ul>
+                    </p>
+                </div>
+                 
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
